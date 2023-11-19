@@ -39,7 +39,7 @@ nav ul li {
 .landing_page {
     height: 100vh;
     background-color: #fff;
-    background-image: url(./background.jpg);
+    background-image: url(./assets/background.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
