@@ -141,7 +141,39 @@ nav ul li:hover {
 }
 
 /* footer */
-footer {
+footer .box{
+    background-color: rgb(228, 232, 228);
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-between;
+
+ }
+ .box i{
+    size: 20px;
+    font-size: 30px
+    
+ }
+
+ .box h3{
+    font-size: 20px;
+    font-family: sans-serif;
+  color: rgb(82, 83, 85);
+ }
+ .box .box1{
+    padding: 25px;
+    margin: 20px;
+ }
+ .box .box2{
+    padding: 25px;
+    margin: 20px;
+ }
+ .box .box3{
+    padding: 25px;
+    margin: 20px;
+ }
+
+ footer .copyright{
     background-color: #ccc;
     height: 100px;
     width: auto;
@@ -149,4 +181,4 @@ footer {
     align-items: center;
     justify-content: center;
 
-}
+} 
