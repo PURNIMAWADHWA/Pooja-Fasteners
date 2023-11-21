@@ -33,11 +33,11 @@ nav ul li {
     list-style-type: none;
     font-weight: 600;
     font-size: larger;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
 }
 
-nav ul li:hover{
+nav ul li:hover {
     font-size: x-large;
     color: #C39A83;
 }
@@ -52,7 +52,7 @@ nav ul li:hover{
     background-size: cover;
     background-position-y: center;
     background-position-x: center;
-    
+
 }
 
 
@@ -60,27 +60,31 @@ nav ul li:hover{
     height: 100vh;
     background-color: #fff;
 }
+
 .shop_category .heading,
 .featured_products .heading {
     height: 100px;
     display: flex;
     align-items: center;
     justify-content: center;
-    
+
 }
+
 .shop_category .heading h1,
 .featured_products .heading h1 {
     border-bottom: 1px solid black;
     padding-bottom: 20px;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-.shop_category .container ,
+
+.shop_category .container,
 .featured_products .container {
     /* background-color: red; */
     height: auto;
     display: flex;
     flex-direction: row;
 }
+
 .shop_category .container .sub-container {
     background-color: #F1F3F2;
     margin: 10px;
@@ -88,24 +92,27 @@ nav ul li:hover{
     width: 300px;
     border-radius: 4px;
 }
-.shop_category .container .sub-container .box{
+
+.shop_category .container .sub-container .box {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    
+
     background-color: #fff;
     height: 40px;
     width: 200px;
 }
-.shop_category .container .sub-container .box p{
+
+.shop_category .container .sub-container .box p {
     color: black;
     font-weight: 800;
 }
-.shop_category .container .sub-container .box span{
+
+.shop_category .container .sub-container .box span {
     color: #979595;
     font-weight: 800;
-    font-stretch:extra-expanded;
+    font-stretch: extra-expanded;
 }
 
 
@@ -113,13 +120,24 @@ nav ul li:hover{
 
 .featured_products {
     height: auto;
-    background-color: aliceblue;
+    background-color: #fff;
 }
-.featured_products .container .products{
+
+.featured_products .container {
+    display: grid;
+    /* grid-template-columns: 200px 200px 200px; */
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.featured_products .container .products {
     height: 100vh;
-    background-color: red;
-    width: 300px;
+    background-color:#F1F3F2;
+    width: 400px;
     margin: 10px;
+    border-radius: 5px;
 }
 
 /* footer */
