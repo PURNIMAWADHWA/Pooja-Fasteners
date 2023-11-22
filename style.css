@@ -93,11 +93,9 @@ nav ul li:hover {
     border-radius: 4px;
 }
 .shop_category .container .sub-container img {
-    border-radius: 5px;
-    
-    
-    object-fit: cover; 
     position: absolute;
+    border-radius: 5px;
+    object-fit: cover; 
 }
 
 .shop_category .container .sub-container .box {
@@ -106,7 +104,6 @@ nav ul li:hover {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-
     background-color: #fff;
     height: 40px;
     width: 200px;
@@ -145,11 +142,28 @@ nav ul li:hover {
 }
 
 .featured_products .container .products {
-    height: 100vh;
+    height: 100dvh;
     background-color:#F1F3F2;
     width: 400px;
     margin: 10px;
     border-radius: 5px;
+}
+.featured_img{
+    height: 100dvh;
+    width: 400px;
+    position: absolute;
+    border-radius: 5px;
+    object-fit: cover; 
+}
+.featured_products .container .description{
+    background-color: #fff;
+    position: absolute;
+    padding: 10px 72px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 480px 0px 0px 70px;
 }
 
 /* footer */
@@ -187,7 +201,7 @@ footer .box{
 
  footer .copyright{
     background-color: #ccc;
-    height: 100px;
+    height: 60px;
     width: auto;
     display: flex;
     align-items: center;
