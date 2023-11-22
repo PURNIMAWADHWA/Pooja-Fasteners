@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 /* navbar */
@@ -81,15 +82,18 @@ nav ul li:hover {
 .featured_products .container {
     /* background-color: red; */
     height: auto;
+    width: 100%;
     display: flex;
-    flex-direction: row;
+    justify-content: center;
+    /* flex-direction: row; */
 }
 
 .shop_category .container .sub-container {
     background-color: #F1F3F2;
-    margin: 10px;
+    /* background-color: blue; */
+    margin: 14px;
     height: 300px;
-    width: 300px;
+    min-width: 285px;
     border-radius: 4px;
 }
 .shop_category .container .sub-container img {
@@ -143,7 +147,8 @@ nav ul li:hover {
 
 .featured_products .container .products {
     height: 100dvh;
-    background-color:#F1F3F2;
+    /* background-color:#F1F3F2; */
+    background-color: blue;
     width: 400px;
     margin: 10px;
     border-radius: 5px;
